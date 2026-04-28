@@ -1,0 +1,13 @@
+{
+  "dataset": "IMDb",
+  "evaluation_subset_size": 1000,
+  "traditional": {
+    "accuracy": 0.9,
+    "f1": 0.9007936507936508
+  },
+  "bert": {
+    "accuracy": 0.916,
+    "f1": 0.9163346613545816
+  },
+  "note": "BERT uses the pretrained textattack/bert-base-uncased-imdb checkpoint."
+}
